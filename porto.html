@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Nurul Miftahillah Hasbi</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    #about img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .edu-img, .org-img, .hobi-img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto 15px;
+    }
+
+    .center-btn {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Portofolio Saya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Organisasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#hobi">Hobi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="about" class="container text-center mt-5">
+    <h1>Halo, Saya <span class="text-primary">Nurul Miftahillah Hasbi</span></h1>
+    <p class="lead">Saya adalah mahasiswa S1 Teknologi Informasi di Universitas 'Aisyiyah Yogyakarta</p>
+    <img src="contoh.JPG" alt="Foto Profil" class="rounded mb-3" width="250">
+    <div>
+      <a href="#contact" class="btn btn-success mt-2">Hubungi saya</a>
+    </div>
+  </section>
+
+  <section id="education" class="container mt-5">
+    <h2 class="text-center mb-4">Riwayat Pendidikan</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <img src="sd.jpg" class="edu-img" alt="Logo SD">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">MIS Muhammadiyah Matompi</h5>
+          <p class="card-text">2012 - 2018</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="smpsma.png" class="edu-img" alt="Logo SMP">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">SMP Darul Arqam Muhammadiyah Gombara Makassar</h5>
+          <p class="card-text">2018 - 2021</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="smpsma.png" class="edu-img" alt="Logo MA">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">MA Darul Arqam Muhammadiyah Gombara Makassar</h5>
+          <p class="card-text">2018 - 2021</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="container mt-5">
+    <h2 class="text-center mb-4">Pengalaman Organisasi</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <img src="ipm.jpg" class="org-img" alt="Logo IPM">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Ikatan Pelajar Muhammadiyah (IPM)</h5>
+          <p class="card-text">Ketua Bidang Perkaderan Periode 2022–2023</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="imm.jpg" class="org-img" alt="Logo IMM">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Ikatan Mahasiswa Muhammadiyah (IMM)</h5>
+          <p class="card-text">Anggota Bidang Organisasi Periode 2025–2026</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hobi" class="container mt-5">
+    <h2 class="text-center mb-4">Hobi</h2>
+    <div class="row text-center">
+      <div class="col-md-4 mb-3">
+        <img src="langit.jpg" class="hobi-img" alt="Foto Langit">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Fotografi</h5>
+          <p class="card-text">Saya suka memotret dan mengabadikan momen sehari-hari.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="buku.jpg" class="hobi-img" alt="Buku">
+        <div class="card p-3 shadow-sm">
+          <h5 class="card-title">Membaca Buku</h5>
+          <p class="card-text">Saya suka membaca buku pengembangan diri, sejarah dan novel.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container mt-5 mb-5">
+    <h2 class="text-center mb-4">Kontak</h2>
+    <form>
+      <div class="mb-3">
+        <label class="form-label">Nama</label>
+        <input type="text" class="form-control" placeholder="Masukkan nama kamu">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input type="email" class="form-control" placeholder="Masukkan email kamu">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Pesan</label>
+        <textarea class="form-control" rows="3" placeholder="Tulis pesan"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Kirim</button>
+    </form>
+  </section>
+
+  <div class="center-btn mb-5">
+    <a href="#" class="btn btn-primary mt-2">Lihat Detail</a>
+  </div>
+
+</body>
+</html>
